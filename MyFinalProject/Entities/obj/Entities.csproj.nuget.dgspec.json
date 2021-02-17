@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Taha\\Desktop\\Yazılım Geliştirici Kampı\\7.Day\\MyFinalProject\\Entities\\Entities.csproj": {}
+    "C:\\Users\\nisan\\Desktop\\Taha\\MyFinalProject\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Taha\\Desktop\\Yazılım Geliştirici Kampı\\7.Day\\MyFinalProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\nisan\\Desktop\\Taha\\MyFinalProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Taha\\Desktop\\Yazılım Geliştirici Kampı\\7.Day\\MyFinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\nisan\\Desktop\\Taha\\MyFinalProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Taha\\Desktop\\Yazılım Geliştirici Kampı\\7.Day\\MyFinalProject\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Taha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Taha\\Desktop\\Yazılım Geliştirici Kampı\\7.Day\\MyFinalProject\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\nisan\\Desktop\\Taha\\MyFinalProject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\nisan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nisan\\Desktop\\Taha\\MyFinalProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Taha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nisan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

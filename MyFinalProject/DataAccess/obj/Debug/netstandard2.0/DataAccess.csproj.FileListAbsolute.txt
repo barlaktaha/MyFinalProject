@@ -10,3 +10,27 @@ C:\Users\Taha\Desktop\Yazılım Geliştirici Kampı\7.Day\MyFinalProject\DataAcc
 C:\Users\Taha\Desktop\Yazılım Geliştirici Kampı\7.Day\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\Taha\Desktop\Yazılım Geliştirici Kampı\7.Day\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\Taha\Desktop\Yazılım Geliştirici Kampı\7.Day\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Taha\Desktop\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\Taha\Desktop\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Taha\Desktop\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Taha\Desktop\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Taha\Desktop\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Taha\Desktop\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\Taha\Desktop\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Taha\Desktop\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\Taha\Desktop\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Taha\Desktop\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\Taha\Desktop\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Taha\Desktop\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\nisan\Desktop\Taha\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\nisan\Desktop\Taha\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\nisan\Desktop\Taha\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\nisan\Desktop\Taha\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\nisan\Desktop\Taha\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\nisan\Desktop\Taha\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\nisan\Desktop\Taha\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\nisan\Desktop\Taha\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\nisan\Desktop\Taha\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\nisan\Desktop\Taha\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\nisan\Desktop\Taha\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\nisan\Desktop\Taha\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb

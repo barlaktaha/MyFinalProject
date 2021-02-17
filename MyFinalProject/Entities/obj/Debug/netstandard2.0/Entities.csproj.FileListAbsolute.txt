@@ -7,3 +7,21 @@ C:\Users\Taha\Desktop\Yazılım Geliştirici Kampı\7.Day\MyFinalProject\Entitie
 C:\Users\Taha\Desktop\Yazılım Geliştirici Kampı\7.Day\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
 C:\Users\Taha\Desktop\Yazılım Geliştirici Kampı\7.Day\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\Taha\Desktop\Yazılım Geliştirici Kampı\7.Day\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\Taha\Desktop\MyFinalProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\Taha\Desktop\MyFinalProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Taha\Desktop\MyFinalProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Taha\Desktop\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\Taha\Desktop\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Taha\Desktop\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\Taha\Desktop\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Taha\Desktop\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\Taha\Desktop\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\nisan\Desktop\Taha\MyFinalProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\nisan\Desktop\Taha\MyFinalProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\nisan\Desktop\Taha\MyFinalProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\nisan\Desktop\Taha\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\nisan\Desktop\Taha\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\nisan\Desktop\Taha\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\nisan\Desktop\Taha\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\nisan\Desktop\Taha\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\nisan\Desktop\Taha\MyFinalProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
