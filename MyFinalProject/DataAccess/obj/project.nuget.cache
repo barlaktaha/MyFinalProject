@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PVNCZix2MZdwHvT31R5PGgZ8PgniiuWXMu0Cto/BEh9Ggop408v2Rs9Wv7pw5PyhmY9sEuae7J4SHdN5eePejg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Taha\\Desktop\\Yazılım Geliştirici Kampı\\7.Day\\MyFinalProject\\DataAccess\\DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Taha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Taha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
