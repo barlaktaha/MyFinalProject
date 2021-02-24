@@ -13,7 +13,19 @@ namespace ConsoleUI
 
             // CategoryTest();
 
-
+            ProductManager productManager = new ProductManager(new EfProductDal());
+            var result = productManager.GetProductDetails();
+            if (result.Success == true)
+            {
+                foreach (var product in result.Data)
+                {
+                    Console.WriteLine("Ürün Adı: " + product.ProductName + "  Kategori Adı: " + product.CategoryName + "  Stok Adedi: " + product.UnitsInStock);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
         }
 
         private static void CategoryTest()
@@ -29,7 +41,7 @@ namespace ConsoleUI
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
 
-            foreach (var product in productManager.GetProductDetails())
+            foreach (var product in productManager.GetProductDetails().Data)
             {
                 Console.WriteLine("Ürün Adı: "+ product.ProductName + "  Kategori Adı: " + product.CategoryName + "  Stok Adedi: " + product.UnitsInStock);
             }
