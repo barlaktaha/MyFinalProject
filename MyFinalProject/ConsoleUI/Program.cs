@@ -9,10 +9,13 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            //ProductTest();
+            // ProductTest(); // CategoryTest(); // DetailTest();
 
-            // CategoryTest();
 
+        }
+
+        private static void DetailTest()
+        {
             ProductManager productManager = new ProductManager(new EfProductDal());
             var result = productManager.GetProductDetails();
             if (result.Success == true)
