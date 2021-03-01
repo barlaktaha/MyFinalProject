@@ -1,10 +1,14 @@
 ﻿using Business.Abstract;
 using Business.Constans;
-using Core.Entities.Utilities.Results;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Validation;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -20,12 +24,9 @@ namespace Business.Concrete
             _productDal = productDal;
         }
 
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
-            if (product.ProductName.Length<2)
-            {
-                return new ErrorResult(Messages.ProductNameInvalid);
-            }
             _productDal.Add(product);
 
             return new SuccessResult(Messages.ProductAdded);
@@ -38,7 +39,7 @@ namespace Business.Concrete
                 return new ErrorDataResult<List<Product>>(Messages.ProductListInvalid);
             }
             // İş Kodları ( ÖR: Yetkisi var mı? )
-            return new SuccessDataResult<List<Product>>(_productDal.GetAll(),Messages.ProductList);
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(), Messages.ProductList);
         }
 
         public IDataResult<List<Product>> GetAllByCategoryId(int id)
@@ -53,7 +54,7 @@ namespace Business.Concrete
 
         public IDataResult<List<ProductDetailDto>> GetProductDetails()
         {
-            return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails(),Messages.ProductList);
+            return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails(), Messages.ProductList);
         }
 
     }
