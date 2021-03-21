@@ -3,6 +3,8 @@ using Business.BusinessAspects.Autofac;
 using Business.CCS;
 using Business.Constans;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
@@ -32,8 +34,10 @@ namespace Business.Concrete
             
         }
 
+        [CacheAspect]
+        [CacheRemoveAspect("IProductService.Get")]
         [SecuredOperation("product.add,admin")]
-        //[ValidationAspect(typeof(ProductValidator))]
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
 
@@ -51,12 +55,25 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ProductAdded);
         }
 
+        [TransactionScopeAspect]
+        public IResult AddTransactionalTest(Product product)
+        {
+            Add(product);
+            if (product.UnitPrice < 10)
+            {
+                throw new Exception("");
+            }
+            Add(product);
+            return null;
+        }
+
+        [CacheRemoveAspect("IProductService.Get")]
         public IDataResult<List<Product>> GetAll()
         {
-            if (DateTime.Now.Hour == 22)
-            {
-                return new ErrorDataResult<List<Product>>(Messages.ProductListInvalid);
-            }
+            //if (DateTime.Now.Hour == 22)
+            //{
+            //    return new ErrorDataResult<List<Product>>(Messages.ProductListInvalid);
+            //}
             // İş Kodları ( ÖR: Yetkisi var mı? )
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(), Messages.ProductList);
         }
@@ -79,7 +96,7 @@ namespace Business.Concrete
         private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
         {
             var result = _productDal.GetAll(c => c.CategoryId == categoryId).Count;
-            if (result >=15 )
+            if (result >=300 )
             {
                 return new ErrorResult(Messages.ProductCountOfCategoryError);
             }
@@ -99,7 +116,7 @@ namespace Business.Concrete
         private IResult CheckIfCategoryCountCorrect()
         {
             var result = _categoryService.GetAll();
-            if (result.Data.Count>15)
+            if (result.Data.Count>300)
             {
                 return new ErrorResult(Messages.CategoryLimitExceded);
             }
@@ -107,5 +124,6 @@ namespace Business.Concrete
 
         }
 
+        
     }
 }
